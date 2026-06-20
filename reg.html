@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel = "stylesheet" href = "reg.css">
+</head>
+<body>
+    <h1 id = "main_heading">Student Registation Form</h1>
+    <form>
+        <label for = "name">Enter Name :- </label>
+        <input type = "text" placeholder="Enter Name" id = "name" autofocus>
+        <label for = "f_name">Father Name :- </label>
+        <input type = "text" placeholder="Enter Father Name" id = "f_name">
+        <br><br>
+        <span>Gender :- </span>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+        <br><br>
+        <label for = "qualification">Qualification :- </label>
+        <input type = "text" placeholder="Enter Education" id = "qualification">
+        <label for="country">Country :- </label>
+
+    <select id="country" name="country">
+    <option value="Pakistan">Pakistan</option>
+    <option value="India">India</option>
+    <option value="Bangladesh">Bangladesh</option>
+    <option value="Sri Lanka">Sri Lanka</option>
+    <option value="Other">Other</option>
+    </select>
+        </form>
+        <br>
+        <button id = "add_records">Add Records</button>
+    <br>
+    <hr>
+    <table id = "tb1" border = "2">
+        <thead></thead>
+        <tr>
+        <th>Name</th>
+        <th>Father Name</th>
+        <th>Gender</th>
+        <th>Qualification</th>
+        <th>Country</th>
+        </tr>
+        </thead>
+        <tbody id = "tb2">
+            <!--All Entered Data Will Be Show There!-->
+        </tbody>
+    </table>
+    <script src = "reg.js"></script>
+</body>
+</html>

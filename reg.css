@@ -1,0 +1,50 @@
+#main_heading{
+    text-align: center;
+}
+#name{
+    width:300px;
+    height:20px;
+}
+#f_name{
+    width:300px;
+    height:20px;
+}
+#qualification{
+    width:300px;
+    height:20px;
+}
+#country{
+    width:300px;
+    height:20px;
+}
+#tb1{
+    width:80%;
+}
+#tb2 {
+    width:80%;
+}
+#tb1 , #tb2 td{
+    padding:12px;
+}
+#tb2 button{
+    width:100px;
+    height:30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+    color:white;
+    font-size: large;
+    font-weight: 600;
+}
+#add_records{
+    width:150px;
+    height:40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color:blue;
+    color:white;
+    font-size: large;
+    font-weight: 600;
+}
